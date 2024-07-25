@@ -4,7 +4,7 @@ A Music Genre Classification System and Recommendation System using the [GTZAN d
 
 Preprocess.ipynb preprocesses the GTZAN 30s audio data, by applying data augmentation techniques such as Time stretch, addition of noise, and Pitch shift for artificially increasing the size and the diversity of the training dataset. The 30s audio data has also been segmented in 10 parts each of 3s long, for added reliability and more accurate prediction. Finaly, this augmented data is converted to MFCC features and stored in a JSON file, which can be used by the model.
 
-Deep Learning techniques such as Convulutional Neural Networks has been used to achive the Music Genre classification.
+Deep Learning techniques such as Convolutional Neural Networks has been used to achive the Music Genre classification.
 Cosine similarity technique has been applied for the Recommendation system.
 
 This model has a consistent accuracy of above 90%, with a maximum accuracy of 93.3%.
